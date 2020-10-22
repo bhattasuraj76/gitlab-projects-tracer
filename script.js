@@ -1,8 +1,10 @@
 const GITLAB_API_URL = "https://gitlab.lenden.app/api/v4/";
 const GITLAB_PERSONAL_TOKEN = "L2v6uhFxdK8FiT7ZSHeX";
 
-//instantiate fetch projects
-fetchProjects();
+document.addEventListener('DOMContentLoaded', function (){
+  //instantiate fetch projects
+  fetchProjects();
+});
 
 //fetch projects
 function fetchProjects() {
